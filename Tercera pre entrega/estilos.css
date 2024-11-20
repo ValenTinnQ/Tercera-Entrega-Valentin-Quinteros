@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: pink;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  color: rgb(233, 27, 199);
+  font-size: 2em;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+}
+header h4 {
+  font-size: 1.1em;
+  color: rgb(233, 27, 199);
+}
+header .Volver {
+  margin-top: 1rem;
+}
+header .Volver nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+header .Volver nav ul li {
+  margin-right: 15px;
+}
+header .Volver nav ul li a {
+  text-decoration: none;
+  color: rgb(233, 27, 199);
+  font-weight: bold;
+  padding: 8px 12px;
+  background-color: white;
+  border-radius: 50px;
+}
+header .Volver nav ul li a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+main .container .box {
+  flex: 1 1 calc(33.33% - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+main .container .box a img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  main .container .box {
+    flex: 1 1 100%;
+  }
+}
+footer {
+  background-color: pink;
+  color: rgb(233, 27, 199);
+  text-align: center;
+  padding: 1rem;
+}
+footer h3 {
+  font-size: 1.1em;
+}
+footer ul {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+footer ul li {
+  font-size: 1.1em;
+}
+
+article {
+  margin: 2rem auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article h1 {
+  font-size: 2em;
+  color: rgb(233, 27, 199);
+  margin-bottom: 1rem;
+}
+article p {
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+article .precio {
+  font-size: 1.5em;
+  color: rgb(233, 27, 199);
+  margin-bottom: 1rem;
+}
+article .btn-comprar {
+  background-color: #28a745;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+article .btn-comprar:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+aside {
+  margin: 2rem auto;
+  max-width: 900px;
+}
+aside img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */
